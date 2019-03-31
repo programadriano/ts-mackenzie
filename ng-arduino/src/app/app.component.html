@@ -1,0 +1,34 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div style="text-align:center">
+  <!-- <button (click)="mamangerLed()">{{statusLed}}</button> -->
+
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col">
+        <h3>Comodo 01</h3>
+        <h6>{{statusLed}}</h6>
+        <input type="checkbox" name="switch" id="switch" />
+        <label class="switch" for="switch" (click)="mamangerLed(1)"> </label>
+      </div>
+      <div class="col">
+        <h3>Comodo 02</h3>
+        <h6>{{statusLed2}}</h6>
+        <input type="checkbox" name="switch" id="switch2" />
+        <label class="switch" for="switch2" (click)="mamangerLed(2)"> </label>
+      </div>
+      <div class="col">
+        <h3>Comodo 03</h3>
+        <h6>{{statusLed3}}</h6>
+        <input type="checkbox" name="switch" id="switch3" />
+        <label class="switch" for="switch3" (click)="mamangerLed(3)"> </label>
+      </div>
+      <div class="col">
+        <h3>Comodo 04</h3>
+        <h6>{{statusLed4}}</h6>
+        <input type="checkbox" name="switch" id="switch4" />
+        <label class="switch" for="switch4" (click)="mamangerLed(4)"> </label>
+      </div>
+    </div>
+  </div>
+</div>
+<router-outlet></router-outlet>
