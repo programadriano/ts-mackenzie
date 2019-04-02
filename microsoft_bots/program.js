@@ -1,5 +1,5 @@
-//const startUp = require("./startup");
-const startUp = require("./chatbot");
+const startUp = require("./startup");
+//const startUp = require("./chatbotiot");
 
 
 const port = process.env.PORT || "3000";

@@ -1,6 +1,6 @@
 window.onload = function() {
     // Cria o cenário com 1220 x 600 px
-    game = new Phaser.Game(1000, 640, Phaser.AUTO, '', {
+    game = new Phaser.Game(600, 400, Phaser.AUTO, '', {
         preload: carregaAssets,
         create: criaCenario, 
         update: atualizaJogo
